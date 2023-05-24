@@ -1,4 +1,4 @@
-import javax.rmi.ssl.SslRMIClientSocketFactory;
+
 import java.util.Scanner;
 
 import static java.lang.System.exit;
@@ -18,13 +18,7 @@ public class Main {
     }
 
     public static int Division(int a, int b) {
-        try{
-            return a / b;
-        }
-        catch (Exception ex){
-            System.out.println("Invalid operation");
-            return 0;
-        }
+        return a / b;
     }
 
 
