@@ -18,7 +18,14 @@ public class Main {
     }
 
     public static int Division(int a, int b) {
-        return a / b;
+        try{
+            return a / b;
+        }
+        catch(Exception ex){
+            System.out.println("Invalid Operation");
+            return  0;
+        }
+
     }
 
 
